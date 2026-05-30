@@ -1,0 +1,26 @@
+{
+  "event": "agent_lead_created",
+  "agentSlug": "",
+  "source": "vercel-web-app",
+  "lead": {
+    "name": "",
+    "email": "",
+    "company": "",
+    "phone": "",
+    "role": "",
+    "industry": "",
+    "market": ""
+  },
+  "input": {},
+  "output": {
+    "markdown": "",
+    "sections": {}
+  },
+  "tracking": {
+    "utmSource": "",
+    "utmMedium": "",
+    "utmCampaign": "",
+    "referrer": ""
+  },
+  "timestamp": ""
+}
