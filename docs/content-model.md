@@ -1,13 +1,12 @@
 # Content Model
 
-This file defines how public directory content maps to source package content.
+This file defines how source assets map to public directory presentation.
 
-## Required Mapping
+## Source and Presentation Layers
 
-- `content/tools/[slug].md` is the public-facing directory profile.
-- `ai-tools/custom-gpts/[slug]/` is the source package for instructions, knowledge, examples, integrations, widgets, landing pages, and assets.
-- Do not use `agent-packages/`.
-- Do not treat `content/tools/` as the source package folder.
+- Source assets live under `ai-tools/`.
+- Public directory presentation will live under `directory/`.
+- Generated/shared indexes and registries live under `data/`.
 
 ## Core Entities
 
@@ -22,6 +21,6 @@ This file defines how public directory content maps to source package content.
 
 ## Source-to-Public Contract
 
-1. Source package authoring happens in `ai-tools/custom-gpts/[slug]/`.
-2. Public profile publication happens in `content/tools/[slug].md`.
-3. Each profile should summarize the source package's problem, audience, and outcomes without duplicating internal implementation files.
+1. Source package authoring happens under `ai-tools/` platform folders.
+2. Public-facing rendering is built from approved source and index data into `directory/`.
+3. Shared manifests and machine-readable indexes are maintained under `data/`.

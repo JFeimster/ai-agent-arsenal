@@ -4,10 +4,9 @@ Use clear, lowercase, hyphenated folder names.
 
 ## Required Location Naming
 
-- Public profile file: `content/tools/[slug].md`
-- CustomGPT source package: `ai-tools/custom-gpts/[slug]/`
-- Do not use `agent-packages/`.
-- Do not treat `content/tools/` as the source package folder.
+- Tool or agent slug folders: `ai-tools/**/[slug]/`
+- Directory route slugs (when built): `directory/**/[slug]/`
+- Data index keys and filenames: `data/**/[slug]`
 
 ## Slug Pattern
 
@@ -17,11 +16,12 @@ funding-pathfinder-gpt
 real-time-cash-flow-analyzer
 ```
 
-Use the same slug in both locations:
+Use the same slug across source, directory, and data references:
 
 ```txt
-content/tools/[slug].md
 ai-tools/custom-gpts/[slug]/
+directory/.../[slug]/
+data/.../[slug]
 ```
 
 Use `README.md` in folders that need to exist before final files are uploaded.

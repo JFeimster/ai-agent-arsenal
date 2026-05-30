@@ -1,35 +1,22 @@
 # Repo Structure
 
-This file documents the operating structure for AI Agent Arsenal.
-
-## Required Separation
-
-- `content/tools/[slug].md` is the public-facing directory profile.
-- `ai-tools/custom-gpts/[slug]/` is the source package for instructions, knowledge, examples, integrations, widgets, landing pages, and assets.
-- Do not use `agent-packages/`.
-- Do not treat `content/tools/` as the source package folder.
+This file documents the approved simplified operating structure for AI Agent Arsenal.
 
 ## Core Layout
 
 ```txt
+README.md
+directory/
 ai-tools/
-  custom-gpts/
-  ai-assistants/
-  gemini-gems/
-  google-ai-studio-apps/
-  automation-workflows/
-  api-integrations/
-  shared-knowledge/
-  templates/
-
-content/
-  tools/
-  playbooks/
-  landing-pages/
-
 data/
 docs/
-variants/
-canonical/
-archive/
+showcase/
 ```
+
+## Folder Meanings
+
+- `directory/`: public-facing static directory site.
+- `ai-tools/`: all AI tool/source/library assets.
+- `data/`: shared indexes, registries, schemas, and imports.
+- `docs/`: repository documentation, import notes, and standards.
+- `showcase/`: browsable UI builds, visual concepts, and demos.
