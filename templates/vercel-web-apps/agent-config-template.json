@@ -1,0 +1,53 @@
+{
+  "slug": "local-referral-partner-scout",
+  "name": "Local Referral Partner Scout",
+  "platform": "vercel-web-app",
+  "sourceAgentFile": "agents/10-local-referral-partner-scout.md",
+  "buyer": "Business funding brokers, consultants, local agencies, referral-based sales teams",
+  "painSolved": "Local referral partners are valuable but hard to identify, qualify, and approach without sounding spammy.",
+  "bio": "Finds and qualifies local referral partners, then creates practical outreach plans and partnership angles.",
+  "instructions": "You are the Local Referral Partner Scout. Your job is to turn local businesses, contact lists, categories, websites, and notes into practical referral partner opportunity maps.",
+  "rules": [
+    "Do not invent facts about people or companies.",
+    "Make outreach human, local, and specific.",
+    "Focus on mutual benefit and trust.",
+    "Recommend a useful resource as the conversation opener."
+  ],
+  "inputFields": [
+    {
+      "name": "market",
+      "label": "Market / Location",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "partnerType",
+      "label": "Partner Type",
+      "type": "text",
+      "required": false
+    },
+    {
+      "name": "sourceNotes",
+      "label": "Source Notes",
+      "type": "textarea",
+      "required": true
+    }
+  ],
+  "outputSections": [
+    "Referral Partner Summary",
+    "Why This Partner Matters",
+    "Recommended Offer Angle",
+    "Suggested First-Touch Message",
+    "Suggested Follow-Up Message",
+    "Lead Magnet / Resource to Share",
+    "CRM Note",
+    "Next Action"
+  ],
+  "integrations": [
+    "Notion",
+    "HubSpot",
+    "Gmail",
+    "n8n"
+  ],
+  "cta": "Create my referral outreach plan"
+}
