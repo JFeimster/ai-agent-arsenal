@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fundable Lead Finder Score Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lead_name",
+    "business_name",
+    "industry",
+    "fundability_score",
+    "score_band",
+    "likely_funding_fit",
+    "qualification_gaps",
+    "outreach_angle",
+    "recommended_next_action",
+    "risk_flags",
+    "compliance_notes"
+  ],
+  "properties": {
+    "lead_name": { "type": "string", "minLength": 1 },
+    "business_name": { "type": "string", "minLength": 1 },
+    "industry": { "type": "string", "minLength": 1 },
+    "fundability_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "score_band": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "insufficient_data"]
+    },
+    "likely_funding_fit": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "qualification_gaps": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "outreach_angle": { "type": "string", "minLength": 1 },
+    "recommended_next_action": { "type": "string", "minLength": 1 },
+    "risk_flags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "compliance_notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
