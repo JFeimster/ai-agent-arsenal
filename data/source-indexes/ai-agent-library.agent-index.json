@@ -1,0 +1,282 @@
+[
+  {
+    "number": 1,
+    "name": "Funding Pipeline Triage Agent",
+    "slug": "funding-pipeline-triage-agent",
+    "category": "Funding Ops",
+    "buyer": "Business funding brokers, loan brokers, ISOs, alternative finance affiliates, sales teams",
+    "pain_solved": "Messy inbound funding leads, scattered emails, incomplete applicant data, and slow follow-up.",
+    "monetization": "Template sale, setup fee, monthly CRM hygiene retainer, broker enablement bundle.",
+    "file": "agents/01-funding-pipeline-triage-agent.md"
+  },
+  {
+    "number": 2,
+    "name": "Incomplete Application Rescue Agent",
+    "slug": "incomplete-application-rescue-agent",
+    "category": "Funding Ops",
+    "buyer": "Funding brokers, affiliate teams, fintech sales teams, enrollment teams",
+    "pain_solved": "Applicants abandon forms, fail to connect bank accounts, miss documents, or get stuck before underwriting.",
+    "monetization": "Dead-deal rescue playbook, monthly follow-up service, broker automation setup.",
+    "file": "agents/02-incomplete-application-rescue-agent.md"
+  },
+  {
+    "number": 3,
+    "name": "Partner Launch Kit Builder",
+    "slug": "partner-launch-kit-builder",
+    "category": "Partner Enablement",
+    "buyer": "Affiliate programs, broker networks, referral programs, partner managers",
+    "pain_solved": "New partners enroll, get excited, then do absolutely nothing because nobody gave them a usable launch system.",
+    "monetization": "Per-partner launch kit, paid onboarding service, partner portal add-on, affiliate enablement SaaS-lite.",
+    "file": "agents/03-partner-launch-kit-builder.md"
+  },
+  {
+    "number": 4,
+    "name": "Broker Profile Builder",
+    "slug": "broker-profile-builder",
+    "category": "Partner Enablement",
+    "buyer": "Broker networks, affiliate managers, independent funding brokers, franchise teams",
+    "pain_solved": "Partner profile pages sound generic, weak, or unfinished, and do not route prospects toward useful resources.",
+    "monetization": "Profile setup fee, profile page package, white-label partner directory service.",
+    "file": "agents/04-broker-profile-builder.md"
+  },
+  {
+    "number": 5,
+    "name": "Funding Tool Router Agent",
+    "slug": "funding-tool-router-agent",
+    "category": "Asset Routing",
+    "buyer": "Agencies, brokers, affiliate operators, fintech teams with multiple calculators and lead magnets",
+    "pain_solved": "Too many tools, landing pages, and calculators; no clear system for what to send to whom.",
+    "monetization": "Asset routing template, partner enablement add-on, consulting setup, monthly asset optimization.",
+    "file": "agents/05-funding-tool-router-agent.md"
+  },
+  {
+    "number": 6,
+    "name": "Content-to-Agent Repurposer",
+    "slug": "content-to-agent-repurposer",
+    "category": "Agent Creation",
+    "buyer": "Creators, coaches, consultants, training companies, internal ops teams",
+    "pain_solved": "Content exists but is not operationalized into reusable workflows, agents, or SOPs.",
+    "monetization": "Prompt pack, agent library setup, content repurposing service, paid workshop.",
+    "file": "agents/06-content-to-agent-repurposer.md"
+  },
+  {
+    "number": 7,
+    "name": "SOP Goblin",
+    "slug": "sop-goblin",
+    "category": "Operations",
+    "buyer": "Agencies, founders, operators, fractional COOs, automation consultants",
+    "pain_solved": "Workflows live in chat threads, screenshots, memory, and caffeine-fueled chaos.",
+    "monetization": "SOP template, done-for-you SOP conversion, internal ops retainer.",
+    "file": "agents/07-sop-goblin.md"
+  },
+  {
+    "number": 8,
+    "name": "Vercel Asset Librarian",
+    "slug": "vercel-asset-librarian",
+    "category": "Asset Management",
+    "buyer": "Indie hackers, agencies, no-code/AI builders, product studios",
+    "pain_solved": "Too many deployed projects and repos with no clean map of status, purpose, audience, or next action.",
+    "monetization": "Portfolio audit, repo cleanup service, asset inventory template, monthly ops review.",
+    "file": "agents/08-vercel-asset-librarian.md"
+  },
+  {
+    "number": 9,
+    "name": "Partner Training Coach",
+    "slug": "partner-training-coach",
+    "category": "Partner Enablement",
+    "buyer": "Affiliate programs, broker teams, sales enablement leaders, network marketing teams",
+    "pain_solved": "New reps do not know what to say, who to contact, or how to build daily momentum.",
+    "monetization": "Training agent, paid partner community upgrade, onboarding bundle, accountability add-on.",
+    "file": "agents/09-partner-training-coach.md"
+  },
+  {
+    "number": 10,
+    "name": "Local Referral Partner Scout",
+    "slug": "local-referral-partner-scout",
+    "category": "Referral Growth",
+    "buyer": "Business funding brokers, consultants, local agencies, accountants, referral-based sales teams",
+    "pain_solved": "Local referral partners are valuable but hard to identify, qualify, and approach without sounding like a commission gremlin.",
+    "monetization": "Local outreach sprint package, referral partner database template, setup service, workshop.",
+    "file": "agents/10-local-referral-partner-scout.md"
+  },
+  {
+    "number": 11,
+    "name": "CRM Note Cleaner",
+    "slug": "crm-note-cleaner",
+    "category": "CRM Ops",
+    "buyer": "Sales teams, brokers, consultants, agencies, service businesses",
+    "pain_solved": "CRM notes are inconsistent, incomplete, bloated, or too sloppy to act on later.",
+    "monetization": "CRM cleanup service, HubSpot/Notion template, automation setup.",
+    "file": "agents/11-crm-note-cleaner.md"
+  },
+  {
+    "number": 12,
+    "name": "Inbox Revenue Signal Scanner",
+    "slug": "inbox-revenue-signal-scanner",
+    "category": "Inbox Ops",
+    "buyer": "Founders, brokers, consultants, sales operators",
+    "pain_solved": "Important revenue signals hide inside email noise.",
+    "monetization": "Inbox triage agent setup, daily digest automation, sales ops retainer.",
+    "file": "agents/12-inbox-revenue-signal-scanner.md"
+  },
+  {
+    "number": 13,
+    "name": "Applicant Support Agent",
+    "slug": "applicant-support-agent",
+    "category": "Support",
+    "buyer": "Funding brokers, fintech firms, application-heavy service businesses",
+    "pain_solved": "Applicants ask repetitive questions about next steps, documents, timelines, bank connection, and eligibility.",
+    "monetization": "Support agent, applicant portal add-on, FAQ automation, managed support setup.",
+    "file": "agents/13-applicant-support-agent.md"
+  },
+  {
+    "number": 14,
+    "name": "Market Intel Scout",
+    "slug": "market-intel-scout",
+    "category": "Research",
+    "buyer": "Founders, agencies, content strategists, affiliate marketers, fintech operators",
+    "pain_solved": "Market changes, competitor moves, offers, and content opportunities are scattered and easy to miss.",
+    "monetization": "Weekly intel report, competitor dashboard, content strategy subscription.",
+    "file": "agents/14-market-intel-scout.md"
+  },
+  {
+    "number": 15,
+    "name": "SEO Article Brief Builder",
+    "slug": "seo-article-brief-builder",
+    "category": "Content Ops",
+    "buyer": "Content teams, bloggers, affiliate marketers, agencies, niche site operators",
+    "pain_solved": "Articles get published without keyword focus, structure, internal links, FAQs, or conversion intent.",
+    "monetization": "SEO brief template, blog ops service, monthly content planning retainer.",
+    "file": "agents/15-seo-article-brief-builder.md"
+  },
+  {
+    "number": 16,
+    "name": "Video-to-Blog Transformer",
+    "slug": "video-to-blog-transformer",
+    "category": "Content Ops",
+    "buyer": "Podcasters, YouTubers, training companies, creators, agencies",
+    "pain_solved": "Video content is trapped in transcripts instead of becoming articles, newsletters, and social content.",
+    "monetization": "Repurposing service, content engine template, monthly production package.",
+    "file": "agents/16-video-to-blog-transformer.md"
+  },
+  {
+    "number": 17,
+    "name": "Lead Magnet Factory Agent",
+    "slug": "lead-magnet-factory-agent",
+    "category": "Growth",
+    "buyer": "Agencies, consultants, affiliate marketers, SaaS founders, creators",
+    "pain_solved": "Brands need useful lead magnets that solve painful problems and collect qualified leads.",
+    "monetization": "Lead magnet pack, Notion template sales, custom GPT/wrapper builds, funnel setup.",
+    "file": "agents/17-lead-magnet-factory-agent.md"
+  },
+  {
+    "number": 18,
+    "name": "Affiliate Offer Matchmaker",
+    "slug": "affiliate-offer-matchmaker",
+    "category": "Affiliate Ops",
+    "buyer": "Affiliate marketers, content brands, broker networks, niche site operators",
+    "pain_solved": "Affiliate offers are scattered and hard to match to content, audience, and funnel intent.",
+    "monetization": "Affiliate offer database, content monetization audit, monthly offer optimization.",
+    "file": "agents/18-affiliate-offer-matchmaker.md"
+  },
+  {
+    "number": 19,
+    "name": "Business Credit Builder Coach",
+    "slug": "business-credit-builder-coach",
+    "category": "Financial Ops",
+    "buyer": "Small business owners, funding clients, consultants, credit-building service providers",
+    "pain_solved": "Business owners do not know what to fix before applying for funding or building business credit.",
+    "monetization": "Paid template, managed business credit service, readiness audit, coaching package.",
+    "file": "agents/19-business-credit-builder-coach.md"
+  },
+  {
+    "number": 20,
+    "name": "Cash Flow Copilot",
+    "slug": "cash-flow-copilot",
+    "category": "Financial Ops",
+    "buyer": "Small business owners, solopreneurs, e-commerce sellers, consultants",
+    "pain_solved": "Operators do not understand short-term cash gaps, revenue recovery timelines, or cash-flow priorities.",
+    "monetization": "Cash-flow dashboard template, advisory retainer, finance ops service.",
+    "file": "agents/20-cash-flow-copilot.md"
+  },
+  {
+    "number": 21,
+    "name": "Micro-Acquisition Deal Screener",
+    "slug": "micro-acquisition-deal-screener",
+    "category": "M&A",
+    "buyer": "Indie buyers, micro-SaaS buyers, acquisition entrepreneurs, small investors",
+    "pain_solved": "Buyers need quick screening before wasting time on weak micro-business acquisition opportunities.",
+    "monetization": "Deal screener template, paid acquisition readiness tool, advisory package.",
+    "file": "agents/21-micro-acquisition-deal-screener.md"
+  },
+  {
+    "number": 22,
+    "name": "Grant Opportunity Scout",
+    "slug": "grant-opportunity-scout",
+    "category": "Funding Research",
+    "buyer": "Small businesses, nonprofits, veteran founders, grant writers, consultants",
+    "pain_solved": "Grant opportunities are hard to track, qualify, and convert into action-ready applications.",
+    "monetization": "Grant scout dashboard, paid research reports, application prep package.",
+    "file": "agents/22-grant-opportunity-scout.md"
+  },
+  {
+    "number": 23,
+    "name": "Meeting-to-Action Agent",
+    "slug": "meeting-to-action-agent",
+    "category": "Operations",
+    "buyer": "Founders, consultants, operators, sales teams, project managers",
+    "pain_solved": "Meetings create ideas but not clean tasks, owners, notes, or follow-up messages.",
+    "monetization": "Meeting ops template, executive assistant workflow, team productivity service.",
+    "file": "agents/23-meeting-to-action-agent.md"
+  },
+  {
+    "number": 24,
+    "name": "Community Event Builder",
+    "slug": "community-event-builder",
+    "category": "Community",
+    "buyer": "Community builders, local business groups, coaches, meetup hosts, chambers",
+    "pain_solved": "Events are vague, under-positioned, and fail to connect community, education, and monetization.",
+    "monetization": "Event planning template, community launch kit, sponsor package, local event consulting.",
+    "file": "agents/24-community-event-builder.md"
+  },
+  {
+    "number": 25,
+    "name": "Agency Offer Architect",
+    "slug": "agency-offer-architect",
+    "category": "Offer Design",
+    "buyer": "Consultants, freelancers, AI automation agencies, no-code builders",
+    "pain_solved": "Service offers are vague, hard to sell, and not packaged into clear deliverables.",
+    "monetization": "Offer strategy session, Notion template, productized service buildout.",
+    "file": "agents/25-agency-offer-architect.md"
+  },
+  {
+    "number": 26,
+    "name": "AI Wrapper Product Manager",
+    "slug": "ai-wrapper-product-manager",
+    "category": "Product",
+    "buyer": "No-code builders, AI consultants, founders, affiliate marketers",
+    "pain_solved": "AI wrapper ideas are everywhere, but few are scoped into real MVPs with inputs, outputs, UX, and monetization.",
+    "monetization": "MVP spec service, prompt pack, wrapper build package, GitHub starter repo.",
+    "file": "agents/26-ai-wrapper-product-manager.md"
+  },
+  {
+    "number": 27,
+    "name": "Notion Database Architect",
+    "slug": "notion-database-architect",
+    "category": "Notion Ops",
+    "buyer": "Founders, operators, agencies, consultants, creators",
+    "pain_solved": "Notion workspaces become messy because databases are created without schema, relations, or operating rules.",
+    "monetization": "Workspace setup, database template pack, ops consulting.",
+    "file": "agents/27-notion-database-architect.md"
+  },
+  {
+    "number": 28,
+    "name": "Automation Workflow Spec Writer",
+    "slug": "automation-workflow-spec-writer",
+    "category": "Automation",
+    "buyer": "Automation agencies, founders, n8n/Make/Zapier builders, ops teams",
+    "pain_solved": "Automations fail because the workflow was never specified clearly before someone started wiring spaghetti.",
+    "monetization": "Automation spec template, build-ready workflow docs, implementation consulting.",
+    "file": "agents/28-automation-workflow-spec-writer.md"
+  }
+]
