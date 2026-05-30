@@ -1,0 +1,27 @@
+Trade,Capital Intensity Tier,Intensity Score (1-10),Primary Capital Drivers,Typical Ticket Size,Base Score Anchor (rubric)
+Trucking & Logistics,Very High,10,"Tractors/trailers, fuel float, driver payroll, receivables",High,60
+Excavation/Grading,Very High,10,"Excavators, dozers, loaders, fuel, site contracts",High,60
+Well Drilling,Very High,10,"Drilling rigs, trucks, pumps, materials",High,60
+Concrete,Very High,9,"Mixers, pumps, forms, cement/rebar materials",High,60
+Paving/Asphalt,Very High,9,"Pavers, rollers, dump trucks, asphalt materials",High,60
+Towing,Very High,9,"Wreckers/flatbeds (high unit cost), 24/7 staffing",High,60
+Septic,Very High,9,"Vacuum/pump trucks, excavation equipment",High,60
+Last-Mile Delivery,Very High,8,"Fleet vehicles, driver payroll, maintenance",Medium,60
+Roofing,High,8,"Materials, crews, trucks/lifts, insurance receivable gaps",Medium-High,52
+Restoration,High,8,"Drying equipment, surge labor, slow insurance receivables",Medium-High,52
+HVAC,High,7,"Unit inventory, service vans, technician payroll",Medium,52
+Tree Service,High,7,"Chippers, bucket trucks, cranes, crew payroll",Medium,52
+General Contracting,High,7,"Sub payments, materials, draw-schedule gaps",High,52
+Moving Companies,Moderate-High,6,"Box trucks, seasonal labor, storage",Medium,45
+Electrical,Moderate-High,6,"Materials (copper/panels), trucks, payroll",Medium,45
+Plumbing,Moderate-High,6,"Service trucks, parts inventory, payroll",Medium,45
+Auto Repair,Moderate-High,6,"Lifts/diagnostic equipment, parts inventory",Medium,45
+Landscaping/Hardscaping,Moderate-High,5,"Mowers, skid steers, trucks, trailers, crews",Low-Medium,45
+Pest Control,Moderate-High,5,"Service vehicles, chemical inventory, routes",Low-Medium,45
+Snow Removal,Moderate-High,5,"Plows, spreaders, salt inventory, on-call payroll",Low-Medium,45
+Lawn Care,Moderate,4,"Mowers, trailers, trucks, seasonal payroll",Low,38
+Cleaning/Janitorial,Moderate,4,"Equipment, supplies, labor on net-terms contracts",Low,38
+Painting,Moderate,3,"Sprayers, ladders, materials, crews",Low,38
+Handyman,Moderate,3,"Vans, tools, materials",Low,38
+Pressure Washing,Lower,2,"Equipment, vehicle, supplies",Low,30
+Locksmith,Lower,2,"Vehicle, tools, inventory",Low,30
