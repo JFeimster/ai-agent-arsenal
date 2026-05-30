@@ -1,4 +1,4 @@
-# Outreach Voice & Style Guide
+# Outreach Voice & Style Guide — Optimized Final
 
 **Owner GPT:** Fundable Lead Finder  
 **Primary use:** Control the tone, structure, and safety rules for the **Personalized Outreach Angle** output.

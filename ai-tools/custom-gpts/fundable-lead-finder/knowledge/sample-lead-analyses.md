@@ -1,4 +1,4 @@
-# Sample Lead Analyses
+# Sample Lead Analyses — Optimized Final
 
 **Owner GPT:** Fundable Lead Finder  
 **Purpose:** Gold-standard sample outputs for different trades, data-quality levels, score bands, red flags, and batch workflows.
