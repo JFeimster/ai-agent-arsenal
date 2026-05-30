@@ -9,7 +9,7 @@ Funding Pipeline Triage
 
 ## Agent Source
 
-`agents/01-funding-pipeline-triage-agent.md`
+`ai-tools/agents/source/ai-agent-library/01-funding-pipeline-triage-agent.md`
 
 ## Buyer
 
@@ -60,3 +60,4 @@ Paste a funding email, applicant note, or lead summary. Get a CRM-ready funding 
 - Broker team setup fee
 - Monthly pipeline ops retainer
 - White-label CRM parser for broker teams
+

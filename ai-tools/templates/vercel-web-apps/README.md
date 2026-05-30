@@ -16,4 +16,4 @@ Included templates:
 Notes:
 
 - vercel-env-example.env contains placeholders only and no real secrets.
-- Keep these templates generic; implementation-specific variants should live under examples/.
+- Keep these templates generic; implementation-specific variants should live under showcase/builds/vercel-agent-apps/.

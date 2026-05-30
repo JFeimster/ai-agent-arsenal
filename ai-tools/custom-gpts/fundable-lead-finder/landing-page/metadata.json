@@ -53,7 +53,7 @@
   ],
   "recommendedRepoPath": "ai-tools/custom-gpts/fundable-lead-finder/landing-page/",
   "sourcePackagePath": "ai-tools/custom-gpts/fundable-lead-finder/",
-  "publicProfilePath": "content/tools/fundable-lead-finder.md",
+  "publicProfilePath": "ai-tools/tool-profiles/fundable-lead-finder.md",
   "deploymentTargets": [
     "Vercel static project",
     "Netlify static site",
@@ -72,3 +72,4 @@
     "The mini score demo is simplified and should not be treated as underwriting logic."
   ]
 }
+
