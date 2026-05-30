@@ -24,10 +24,10 @@ Loan brokers, funding affiliates, and local service business prospectors.
 - Outreach angle plus ready-to-send message drafts.
 
 ## File Location
-ai-tools/custom-gpts/fundable-lead-finder/
+`ai-tools/custom-gpts/fundable-lead-finder/`
 
 ### gpt/
-    system-instructions.md
+    `system-instructions.md`
     current-gpt-instructions.md
     conversation-starters.md
     knowledge-manifest.md
