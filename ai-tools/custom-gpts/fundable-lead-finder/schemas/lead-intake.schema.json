@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fundable Lead Finder Intake",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lead_name",
+    "business_name",
+    "industry",
+    "location",
+    "years_in_business",
+    "estimated_monthly_revenue",
+    "urgency_level",
+    "data_source"
+  ],
+  "properties": {
+    "lead_name": { "type": "string", "minLength": 1 },
+    "business_name": { "type": "string", "minLength": 1 },
+    "industry": { "type": "string", "minLength": 1 },
+    "location": { "type": "string", "minLength": 1 },
+    "website": { "type": ["string", "null"], "format": "uri" },
+    "phone": { "type": ["string", "null"] },
+    "email": { "type": ["string", "null"], "format": "email" },
+    "years_in_business": { "type": "number", "minimum": 0 },
+    "estimated_monthly_revenue": { "type": "number", "minimum": 0 },
+    "visible_growth_signals": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "equipment_or_cash_flow_need": { "type": ["string", "null"] },
+    "urgency_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "urgent"]
+    },
+    "online_presence_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "data_source": { "type": "string", "minLength": 1 },
+    "notes": { "type": ["string", "null"] }
+  }
+}

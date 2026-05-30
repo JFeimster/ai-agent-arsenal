@@ -2,6 +2,10 @@
   "name": "Fundable Lead Finder",
   "slug": "fundable-lead-finder",
   "platform": "CustomGPT",
-  "status": "draft",
+  "status": "v0.1-draft",
+  "category": "Funding, Lead Generation, Outreach",
+  "summary": "Scores blue-collar service leads and writes practical funding outreach.",
+  "audience": "Loan brokers, funding affiliates, local service business prospectors",
+  "sourceUrl": "https://myfunding.notion.site/Fundable-Lead-Finder-GPT-fe3e846e4af741b3b7bee3cb2b9f11bb",
   "repoPath": "ai-tools/custom-gpts/fundable-lead-finder/"
 }
