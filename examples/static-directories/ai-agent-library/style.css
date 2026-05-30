@@ -1,0 +1,130 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --secondary-text-color: #b3b3b3;
+  --card-bg: #1e1e1e;
+  --card-border: #333333;
+  --accent-color: #bb86fc;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+header p {
+  color: var(--secondary-text-color);
+  margin-bottom: 1.5rem;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#search {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-sizing: border-box;
+}
+
+#search:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.agent-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-color: var(--accent-color);
+}
+
+.agent-header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.agent-category {
+  display: inline-block;
+  background-color: #333333;
+  color: var(--text-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.agent-body {
+  flex-grow: 1;
+}
+
+.agent-body p {
+  font-size: 0.9rem;
+  color: var(--secondary-text-color);
+  margin: 0 0 0.5rem 0;
+}
+
+.agent-body strong {
+  color: var(--text-color);
+}
+
+.agent-footer {
+  margin-top: 1.5rem;
+  text-align: right;
+}
+
+.agent-link {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.agent-link:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none !important;
+}
