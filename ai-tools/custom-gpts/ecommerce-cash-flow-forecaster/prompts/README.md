@@ -23,10 +23,13 @@ Reusable prompt packs for weekly cash flow reviews and scenario planning.
 ## How This Connects
 
 Use these packs with:
-- templates/spreadsheets/90-day-ecommerce-cash-flow-planner/
-- custom-gpts/ecommerce-cash-flow-forecaster/system-instructions.md
-- prompts/funding/ecommerce-working-capital-memos.md
+- ai-tools/custom-gpts/ecommerce-cash-flow-forecaster/spreadsheet/90-day-ecommerce-cash-flow-planner/
+- ai-tools/custom-gpts/ecommerce-cash-flow-forecaster/instructions/system-instructions.md
+- ai-tools/custom-gpts/ecommerce-cash-flow-forecaster/prompts/ecommerce-working-capital-memos.md
 
 ## Compliance Note
 
 These prompts are planning tools. They do not determine approvals, qualifications, eligibility, or guarantees, and they do not provide legal, tax, accounting, lending, investment, or financial advice.
+
+
+
