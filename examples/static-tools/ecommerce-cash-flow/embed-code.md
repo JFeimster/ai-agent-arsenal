@@ -1,0 +1,47 @@
+---
+title: "Ecommerce Cash Flow Embed Code Examples"
+asset_type: "embed-snippet"
+source_repo: "JFeimster/ecommerce-cash-flow"
+source_path: "docs/embed-code.md"
+status: "curated-import"
+tags:
+  - ecommerce
+  - cash-flow
+  - embed
+  - static-html
+---
+# Embed Code
+
+## Standard iframe
+
+```html
+<iframe
+  src="https://YOUR-DOMAIN.example/embed.html"
+  width="920"
+  height="1180"
+  style="border:0;border-radius:24px;max-width:100%;box-shadow:0 20px 60px rgba(15,23,42,.16);"
+  title="Ecommerce Cash Flow Forecaster GPT Embed">
+</iframe>
+```
+
+## Responsive wrapper
+
+```html
+<div style="width:100%;overflow:auto;">
+  <iframe
+    src="https://YOUR-DOMAIN.example/embed.html"
+    width="920"
+    height="1180"
+    style="border:0;border-radius:24px;min-height:1180px;max-width:none;"
+    title="Ecommerce Cash Flow Forecaster GPT Embed">
+  </iframe>
+</div>
+```
+
+## Local testing
+
+Open `index.html` for the landing page and `embed.html` for the embeddable version.
+## Use in AI Agent Arsenal
+
+Use these snippets as starter embed examples only. Replace placeholder domains and validate sizing in your host page before production use.
+
