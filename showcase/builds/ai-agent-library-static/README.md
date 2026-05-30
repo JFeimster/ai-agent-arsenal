@@ -17,7 +17,7 @@ This folder is a reference example only. It is not the canonical or production U
 - `script.js` first attempts to load `agent-index.json` from the same directory.
 - If that file is unavailable, it falls back to `site-data/agents.json`.
 - The fallback file is included here so the example runs locally without extra wiring.
-- The fallback data preserves source-relative `agent.file` paths (for example `agents/01-...md`), so "View Spec" links may not resolve from this examples folder without path rewriting.
+- The fallback data preserves source-relative `agent.file` paths (for example `agents/01-...md`), so "View Spec" links may not resolve from this showcase build folder without path rewriting.
 
 ## Run locally
 

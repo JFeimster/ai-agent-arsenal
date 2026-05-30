@@ -9,7 +9,7 @@ Partner Launch Kit Builder
 
 ## Agent Source
 
-`agents/03-partner-launch-kit-builder.md`
+`ai-tools/agents/source/ai-agent-library/03-partner-launch-kit-builder.md`
 
 ## Buyer
 
@@ -62,3 +62,4 @@ Enter a partner's niche, background, audience, and application link. Get a custo
 - White-label launch kit builder
 - Paid affiliate enablement toolkit
 - Partner portal upgrade
+

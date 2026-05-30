@@ -9,7 +9,7 @@ SOP Goblin
 
 ## Agent Source
 
-`agents/07-sop-goblin.md`
+`ai-tools/agents/source/ai-agent-library/07-sop-goblin.md`
 
 ## Buyer
 
@@ -59,3 +59,4 @@ Paste messy notes, screenshots text, chat summaries, or workflow descriptions. G
 - Workflow documentation service
 - Agency ops retainer
 - Internal training pack
+

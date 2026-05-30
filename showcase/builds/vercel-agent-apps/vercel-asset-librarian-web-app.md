@@ -9,7 +9,7 @@ Vercel Asset Librarian
 
 ## Agent Source
 
-`agents/08-vercel-asset-librarian.md`
+`ai-tools/agents/source/ai-agent-library/08-vercel-asset-librarian.md`
 
 ## Buyer
 
@@ -60,3 +60,4 @@ Paste or connect a Vercel/GitHub project list. Get a structured portfolio map wi
 - Repo cleanup service
 - Asset inventory dashboard
 - Monthly product ops review
+

@@ -35,7 +35,7 @@ The page should sell the value without overclaiming. It should make the visitor 
 ai-tools/custom-gpts/fundable-lead-finder/landing-page/
 ```
 
-This landing page belongs with the Fundable Lead Finder source package, not in the public content profile. If the page is later promoted into a live example, a copy or build artifact may also be referenced from `examples/`, `assets/`, or a static-site directory depending on repo convention.
+This landing page belongs with the Fundable Lead Finder source package, not in the public tool profile source. If the page is later promoted into a live example, a copy or build artifact may also be referenced from `showcase/builds/`, `assets/`, or a static-site directory depending on repo convention.
 
 ## Local Preview
 
@@ -273,3 +273,4 @@ Possible Batch 2 upgrades:
 Current status: **Static starter landing page**
 
 The page is ready for local preview and repo packaging. Production deployment should wait until the form/CTA target and analytics decision are finalized.
+

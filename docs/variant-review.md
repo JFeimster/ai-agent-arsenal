@@ -2,11 +2,11 @@
 
 Imported Flash UI static variants for AI Agent Arsenal.
 
-## Variants
+## Showcase Builds
 
-- `variants/flash-ui-static/01-ops-command-center/` — ops-heavy command center concept with partner portal, prompt vault, calculators, status monitor, and submission flows.
-- `variants/flash-ui-static/02-directory-first/` — strongest candidate for the initial public directory homepage. Best aligned with featured tools, searchable directory, platform breakdown, use cases, and operating principles.
-- `variants/flash-ui-static/03-routed-tool-vault/` — routed future tool-vault architecture candidate with tools, calculators, prompts, playbooks, and forge sections.
+- `showcase/builds/ops-command-center/` — ops-heavy command center concept with partner portal, prompt vault, calculators, status monitor, and submission flows.
+- `showcase/builds/directory-first/` — strongest candidate for the initial public directory homepage. Best aligned with featured tools, searchable directory, platform breakdown, use cases, and operating principles.
+- `showcase/builds/routed-tool-vault/` — routed future tool-vault architecture candidate with tools, calculators, prompts, playbooks, and forge sections.
 
 ## Recommendation
 

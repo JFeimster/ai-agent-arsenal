@@ -9,7 +9,7 @@ Local Referral Partner Scout
 
 ## Agent Source
 
-`agents/10-local-referral-partner-scout.md`
+`ai-tools/agents/source/ai-agent-library/10-local-referral-partner-scout.md`
 
 ## Buyer
 
@@ -62,3 +62,4 @@ Paste a local business, LinkedIn profile, contact list, or referral partner cate
 - Paid local outreach sprint
 - Partner recruitment funnel
 - Agency implementation package
+
