@@ -1,1 +1,74 @@
-{}
+{
+  "name": "Fundable Lead Finder Landing Page",
+  "slug": "fundable-lead-finder-landing",
+  "version": "0.2.0",
+  "status": "draft-static-v2",
+  "type": "static-landing-page",
+  "tool": {
+    "name": "Fundable Lead Finder",
+    "slug": "fundable-lead-finder",
+    "category": "CustomGPT",
+    "subcategory": "Funding Prospecting"
+  },
+  "description": "A sizzling static landing page for Fundable Lead Finder, a blue-collar service lead scoring and funding outreach tool for brokers, funding affiliates, and commercial finance teams.",
+  "primaryAudience": [
+    "Business loan brokers",
+    "Commercial finance advisors",
+    "Funding affiliates",
+    "Local service business prospectors",
+    "Clay and Apollo operators"
+  ],
+  "targetIndustries": [
+    "HVAC",
+    "Roofing",
+    "Plumbing",
+    "Electrical",
+    "Trucking",
+    "Restoration",
+    "Landscaping",
+    "Towing",
+    "Concrete",
+    "Paving",
+    "Tree service",
+    "Auto repair"
+  ],
+  "coreClaims": [
+    "Scores blue-collar service leads from 1 to 100 for top-of-funnel sales opportunity.",
+    "Identifies funding trigger events such as hiring, fleet pressure, receivables delays, storm demand, expansion, and seasonal working-capital pressure.",
+    "Generates concise outreach that sounds practical, direct, and trade-aware."
+  ],
+  "compliancePositioning": [
+    "Prospecting support only.",
+    "Not underwriting.",
+    "Not a credit decision.",
+    "Not a funding approval prediction.",
+    "Do not guarantee funding, rates, terms, approvals, or eligibility."
+  ],
+  "files": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "metadata.json",
+    "README.md"
+  ],
+  "recommendedRepoPath": "ai-tools/custom-gpts/fundable-lead-finder/landing-page/",
+  "sourcePackagePath": "ai-tools/custom-gpts/fundable-lead-finder/",
+  "publicProfilePath": "content/tools/fundable-lead-finder.md",
+  "deploymentTargets": [
+    "Vercel static project",
+    "Netlify static site",
+    "Cloudflare Pages",
+    "GitHub Pages",
+    "Wix embed via iframe"
+  ],
+  "cta": {
+    "primary": "Grab the file pack",
+    "secondary": "Run the mini demo",
+    "formStatus": "demo-only-placeholder"
+  },
+  "notes": [
+    "The included form is not connected to a backend.",
+    "Wire lead capture to HubSpot, Tally, Beehiiv, ConvertKit, Airtable, Supabase, or a CRM workflow before production use.",
+    "The mini score demo is simplified and should not be treated as underwriting logic."
+  ]
+}
