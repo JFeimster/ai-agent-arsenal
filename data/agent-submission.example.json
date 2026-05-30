@@ -1,0 +1,10 @@
+{
+  "name": "Example Agent",
+  "slug": "example-agent",
+  "platform": "CustomGPT",
+  "status": "draft",
+  "category": "Funding & Capital",
+  "description": "Short description of the tool.",
+  "launchUrl": "",
+  "repoPath": "ai-tools/custom-gpts/example-agent/"
+}

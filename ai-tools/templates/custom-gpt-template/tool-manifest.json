@@ -1,0 +1,7 @@
+{
+  "name": "custom-gpt-template",
+  "slug": "custom-gpt-template",
+  "platform": "CustomGPT",
+  "status": "template",
+  "repoPath": "ai-tools/templates/custom-gpt-template/"
+}

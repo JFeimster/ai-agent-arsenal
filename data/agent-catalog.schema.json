@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Agent Arsenal Catalog Item",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "slug": { "type": "string" },
+    "platform": { "type": "string" },
+    "status": { "type": "string" },
+    "category": { "type": "string" },
+    "description": { "type": "string" },
+    "launchUrl": { "type": "string" },
+    "repoPath": { "type": "string" }
+  },
+  "required": ["name", "slug", "platform", "status", "category"]
+}

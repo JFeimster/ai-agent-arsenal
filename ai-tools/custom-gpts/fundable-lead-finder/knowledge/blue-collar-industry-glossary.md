@@ -1,0 +1,2 @@
+# Blue Collar Industry Glossary
+
