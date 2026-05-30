@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Agent Arsenal Agent",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "slug": { "type": "string" },
+    "platform": { "type": "string" },
+    "category": { "type": "string" },
+    "status": { "type": "string" },
+    "description": { "type": "string" },
+    "url": { "type": "string" },
+    "repoUrl": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "required": ["name", "slug", "platform", "category", "status", "description"]
+}
