@@ -1,0 +1,46 @@
+{
+  "name": "Ecommerce Cash Flow Forecaster",
+  "type": "custom-gpt",
+  "slug": "ecommerce-cash-flow-forecaster",
+  "status": "curated",
+  "source_repo": "JFeimster/ecommerce-cash-flow",
+  "primary_folder": "ai-tools/custom-gpts/ecommerce-cash-flow-forecaster",
+  "audience": [
+    "Shopify sellers",
+    "Amazon sellers",
+    "TikTok Shop sellers",
+    "Etsy sellers",
+    "WooCommerce stores",
+    "DTC ecommerce founders",
+    "Marketplace sellers",
+    "Funding advisors",
+    "Bookkeepers",
+    "Consultants"
+  ],
+  "capabilities": [
+    "90-day cash flow forecasting",
+    "inventory pressure analysis",
+    "ad spend risk review",
+    "debt-service strain review",
+    "funding trigger alerts",
+    "working capital memo generation",
+    "cash flow action planning"
+  ],
+  "compliance_notes": [
+    "Planning support only",
+    "No funding approval claims",
+    "No eligibility or qualification determinations",
+    "No funding guarantees",
+    "No legal, tax, accounting, lending, investment, or underwriting advice"
+  ],
+  "tags": [
+    "custom-gpt",
+    "ecommerce",
+    "cash-flow",
+    "forecasting",
+    "working-capital",
+    "inventory",
+    "ad-spend",
+    "funding-readiness"
+  ]
+}

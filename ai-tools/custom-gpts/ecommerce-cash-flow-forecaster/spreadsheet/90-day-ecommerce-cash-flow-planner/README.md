@@ -47,9 +47,9 @@ Formulas reference specific tabs, columns, and row ranges (for example, Week 1-1
 
 ## Connections to GPTs, Prompts, and Future Calculators
 
-- Custom GPT: pair this package with custom-gpts/ecommerce-cash-flow-forecaster/system-instructions.md for narrative analysis.
+- Custom GPT: pair this package with ai-tools/custom-gpts/ecommerce-cash-flow-forecaster/instructions/system-instructions.md for narrative analysis.
 - Prompt packs: use weekly and scenario prompts to convert workbook outputs into operator action plans.
-- Future calculators: use this package as the specification baseline for deterministic calculator builds under calculators/ecommerce/cash-flow-planner/.
+- Future calculators: use this package as the specification baseline for deterministic calculator builds under ai-tools/custom-gpts/ecommerce-cash-flow-forecaster/spreadsheet/90-day-ecommerce-cash-flow-planner/.
 
 ## Compliance Note
 
@@ -58,3 +58,5 @@ This package is for cash flow planning support only. It is not legal, tax, accou
 ## Source Attribution
 
 Curated from JFeimster/ecommerce-cash-flow spreadsheet assets listed in frontmatter.
+
+
