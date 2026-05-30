@@ -1,90 +1,126 @@
 # Prompt Pack
 
-## Score a Blue-Collar Service Lead
+## Full Lead Analysis
 """
-Score this lead for funding-readiness using the lead-intake schema. Return a 0-100 score, score band, qualification gaps, risk flags, outreach angle, and recommended next action.
-Use direct language and explain the score in under 120 words.
+Analyze this business using the Fundable Lead Finder structure.
+Return exactly:
+1) Research Summary
+2) Trigger Event Analysis
+3) Fundability Score (1-100)
+4) Personalized Outreach Angle
+Do not ask follow-up questions. If data is missing, make disciplined assumptions and label them.
 Input:
-{{lead_json}}
+{{business_name}}
+{{industry}}
+{{location}}
+{{enrichment_context}}
 """
 
-## Write a Funding Outreach DM
+## Outreach Angle Only
 """
-Write a first-touch DM for this lead. Keep it practical, no hype, and under 120 words.
-Mention the likely use of funds and propose one low-friction next step.
+Based on this business context, output only a concise personalized outreach angle.
+No extra sections.
 Input:
-{{lead_json}}
-{{score_json}}
+{{business_name}}
+{{industry}}
+{{location}}
+{{enrichment_context}}
 """
 
-## Write a Follow-Up Sequence
+## Clay AI Column Prompt
 """
-Create a 4-step follow-up sequence (Day 1, Day 3, Day 7, Day 12).
-Each message must be short, human, and tied to the lead's context.
-Include channel suggestions (SMS, email, DM, phone).
-Input:
-{{lead_json}}
-{{score_json}}
-"""
-
-## Summarize Why a Lead May Be Fundable
-"""
-Summarize why this lead appears fundable in 5 bullets max.
-Use only confirmed or clearly labeled unverified data.
-Input:
-{{lead_json}}
-"""
-
-## Identify Missing Qualification Data
-"""
-Identify the minimum missing data needed to move this lead from triage to broker-ready qualification.
-Return a prioritized checklist with rationale.
-Input:
-{{lead_json}}
+You are running in a Clay "Use AI" column. Use these variables and return CRM-friendly output.
+Variables:
+- {{company_description}}
+- {{recent_job_postings}}
+- {{website_text}}
+- {{recent_news}}
+- {{industry}}
+- {{location}}
+Return:
+- Research Summary
+- Trigger Event Analysis
+- Fundability Score (1-100)
+- Score Reason
+- Recommended Funding Product
+- Outreach Angle
+- CTA
+- Red Flags
+- Assumptions Used
+- Source Notes
 """
 
-## Turn a Spreadsheet Row Into a Prioritized Outreach Plan
+## Apollo or Instantly First-Line Prompt
 """
-Given one spreadsheet row, produce:
-- fundability score
-- priority tier
-- best outreach channel
-- first message draft
-- next follow-up date
-Input row:
-{{csv_row}}
+Generate 3 personalized first lines for a cold email sequence.
+Lines should reference likely trigger events, stay practical, avoid banker-speak, and feel peer-to-peer.
+Keep each line under 20 words.
+Input:
+{{business_name}}
+{{industry}}
+{{location}}
+{{enrichment_context}}
 """
 
-## Create a Daily Prospecting List
+## Batch Lead Scoring
 """
-From this lead batch, produce today's top 15 outreach targets.
-Sort by funding-readiness and urgency. Include reason, channel, and opener.
+Score this list of businesses for top-of-funnel funding opportunity.
+Return one clearly separated block per business with:
+- Research Summary
+- Trigger Event Analysis
+- Fundability Score (1-100)
+- Personalized Outreach Angle
+Use consistent formatting for easy CSV or CRM mapping.
 Input:
-{{lead_list_json}}
+{{business_list}}
 """
 
-## Write a Phone Opener
+## CRM Field Extraction
 """
-Write a 20-30 second phone opener for this lead.
-Direct tone, no fluff, no promises, and one clear next step.
+Convert this analysis into CRM fields:
+- Research Summary
+- Trigger Events
+- Fundability Score
+- Score Reason
+- Recommended Funding Product
+- Outreach Angle
+- CTA
+- Red Flags
+- Assumptions Used
+- Source Notes
 Input:
-{{lead_json}}
-{{score_json}}
+{{analysis_text}}
 """
 
-## Write an Email Opener
+## Red-Flag Screening
 """
-Write a short funding outreach email opener (subject + first paragraph).
-Keep it human, specific to the business, and compliance-safe.
+Screen this business context for prospecting red flags only.
+Flag items such as closure signals, bankruptcy mentions, fraud allegations, severe reputation issues, and irrelevant industries.
+Return:
+- Red Flags Found
+- Severity (low/medium/high)
+- Keep or Disqualify recommendation
 Input:
-{{lead_json}}
-{{score_json}}
+{{business_context}}
 """
 
-## Rewrite Outreach To Sound More Human
+## Rewrite Outreach to Remove Banker-Speak
 """
-Rewrite this outreach message to sound less salesy and more natural.
-Keep core intent, remove hype language, and preserve compliance boundaries.
+Rewrite this outreach message to sound direct, practical, and human.
+Remove banker-speak, hype language, and generic corporate phrasing.
+Keep under 75 words.
 Input:
-{{message_text}}
+{{outreach_text}}
+"""
+
+## Referral Partner Intro Prompt
+"""
+Write a short intro message to a potential referral partner (accountant, insurance broker, payroll provider, local consultant).
+Explain how funding support helps their local service clients.
+Tone: direct, practical, low-pressure.
+Include one simple CTA.
+Input:
+{{partner_type}}
+{{local_market}}
+{{target_industries}}
 """
