@@ -1,0 +1,9 @@
+[
+  { "label": "Home", "href": "index.html" },
+  { "label": "Tools", "href": "pages/tools.html" },
+  { "label": "Agents", "href": "pages/agents.html" },
+  { "label": "Skills", "href": "pages/skills.html" },
+  { "label": "Playbooks", "href": "pages/playbooks.html" },
+  { "label": "Templates", "href": "pages/templates.html" },
+  { "label": "Submit", "href": "pages/submit.html" }
+]
