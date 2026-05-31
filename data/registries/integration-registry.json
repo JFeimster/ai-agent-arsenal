@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "api-integrations-root",
+      "name": "API Integrations Root",
+      "path": "ai-tools/api-integrations/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}

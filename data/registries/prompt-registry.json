@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "prompt-systems-template",
+      "name": "Prompt Template",
+      "path": "ai-tools/prompt-systems/prompt-template.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}
