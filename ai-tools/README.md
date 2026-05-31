@@ -1,6 +1,6 @@
 # AI Tools Source Layer
 
-This folder stores source packages and platform-aware agent assets for AI Agent Arsenal.
+`ai-tools/` stores curated source packages and supporting assets for AI tools, agents, assistants, prompts, schemas, actions, workflows, templates, playbooks, integrations, skills, and shared knowledge.
 
 ## Canonical Structure
 
@@ -16,6 +16,7 @@ ai-tools/
     crewai/
     langchain/
   assistants/
+  calculators/
   skills/
   prompts/
   schemas/
@@ -27,12 +28,14 @@ ai-tools/
   shared-knowledge/
 ```
 
-## Placement Rules
+## Operating Rules
 
 - `custom-gpts/` is for packaged ChatGPT CustomGPT products.
 - Platform-specific agent specs live at `agents/[platform]/[slug]/README.md`.
 - Notion-born imported agents live in `agents/notion/`.
 - Gemini Gems belong in `agents/gemini/` or `assistants/gemini/` depending on use.
+- Move UI/demo app builds into `showcase/builds/`.
+- Keep production directory presentation in `directory/`, not `showcase/`.
 
 ## Deprecated Paths
 
