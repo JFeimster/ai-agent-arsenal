@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "github.copilot",
+    "editorconfig.editorconfig",
+    "yzhang.markdown-all-in-one"
+  ],
+  "unwantedRecommendations": []
+}

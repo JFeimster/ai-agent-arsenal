@@ -1,0 +1,6 @@
+# Vercel Environment Template (Example)
+
+VERCEL_PROJECT_NAME=example-project
+VERCEL_TEAM_SLUG=example-team
+APP_BASE_URL=https://example.vercel.app
+OPENAI_MODEL=gpt-4.1-mini

@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate JSON (data + directory)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "$files = Get-ChildItem -Recurse -File data,directory/data -Filter *.json; foreach ($f in $files) { Get-Content -Raw -LiteralPath $f.FullName | Test-Json | Out-Null }; Write-Output 'JSON validation passed.'"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
