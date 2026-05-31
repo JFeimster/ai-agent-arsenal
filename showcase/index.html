@@ -3,33 +3,112 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Showcase Builds</title>
+  <title>Showcase Builds | AI Agent Arsenal</title>
   <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080b10;
+      --panel: #121826;
+      --text: #f6f7fb;
+      --muted: #aab3c5;
+      --line: rgba(255, 255, 255, 0.12);
+      --accent: #f4b942;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.5;
+      background: radial-gradient(circle at top left, rgba(244, 185, 66, 0.14), transparent 30rem), var(--bg);
+      color: var(--text);
     }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: clamp(2rem, 6vw, 5rem) 1rem;
+    }
+
     h1 {
-      margin-top: 0;
+      margin: 0;
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      line-height: 0.95;
+      letter-spacing: -0.06em;
     }
-    ul {
-      padding-left: 1.25rem;
+
+    p {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.1rem;
     }
-    li {
-      margin: 0.4rem 0;
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      min-height: 220px;
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: 1.25rem;
+      background: linear-gradient(180deg, var(--panel), #0d1220);
+      text-decoration: none;
+    }
+
+    .card:hover {
+      border-color: rgba(244, 185, 66, 0.5);
+    }
+
+    .card strong {
+      font-size: 1.25rem;
+    }
+
+    .badge {
+      width: fit-content;
+      border: 1px solid rgba(244, 185, 66, 0.45);
+      border-radius: 999px;
+      padding: 0.18rem 0.55rem;
+      color: var(--accent);
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
   </style>
 </head>
 <body>
-  <h1>Showcase Builds</h1>
-  <p>Browsable demo builds and UI concepts.</p>
+  <main>
+    <span class="badge">Showcase</span>
+    <h1>Choose a UI build.</h1>
+    <p>Browsable concepts and demo builds for AI Agent Arsenal. This is a gallery, not the production source of truth.</p>
 
-  <ul>
-    <li><a href="./builds/ops-command-center/index.html">Ops Command Center</a></li>
-    <li><a href="./builds/directory-first/index.html">Directory First</a></li>
-    <li><a href="./builds/ai-agent-library-static/index.html">AI Agent Library Static Directory</a></li>
-    <li><a href="./builds/routed-tool-vault/index.html">Routed Tool Vault</a></li>
-  </ul>
+    <section class="grid" aria-label="Available showcase builds">
+      <a class="card" href="./builds/ops-command-center/index.html">
+        <span class="badge">Ops</span>
+        <strong>Ops Command Center</strong>
+        <span>Command-center concept for portals, prompt vaults, calculators, monitoring, and partner workflows.</span>
+      </a>
+
+      <a class="card" href="./builds/directory-first/index.html">
+        <span class="badge">Directory</span>
+        <strong>Directory First</strong>
+        <span>Static-first public directory concept for tools, agents, prompts, playbooks, and templates.</span>
+      </a>
+
+      <a class="card" href="./builds/ai-agent-library-static/index.html">
+        <span class="badge">Static</span>
+        <strong>AI Agent Library Static</strong>
+        <span>Imported static directory concept using local site data for AI agent library browsing.</span>
+      </a>
+    </section>
+  </main>
 </body>
 </html>
