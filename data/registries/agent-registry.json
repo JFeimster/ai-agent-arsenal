@@ -1,12 +1,54 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "updatedAt": "2026-05-31",
-  "source": "batch-01-repo-control-files-follow-up",
+  "source": "pr-20-jules-agent-specs",
   "entries": [
     {
       "id": "funding-pipeline-triage-agent",
       "name": "Funding Pipeline Triage Agent",
-      "path": "ai-tools/agents/source/ai-agent-library/01-funding-pipeline-triage-agent.md",
+      "path": "ai-tools/agents/notion/funding-pipeline-triage-agent/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "jules-agent-specs",
+      "name": "Jules Agent Specs",
+      "path": "ai-tools/agents/jules/README.md",
+      "status": "active",
+      "review": "approved"
+    },
+    {
+      "id": "repo-cleanup-operator",
+      "name": "Repo Cleanup Operator",
+      "path": "ai-tools/agents/jules/repo-cleanup-operator/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "pull-request-review-agent",
+      "name": "Pull Request Review Agent",
+      "path": "ai-tools/agents/jules/pull-request-review-agent/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "documentation-maintainer",
+      "name": "Documentation Maintainer",
+      "path": "ai-tools/agents/jules/documentation-maintainer/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "issue-triage-agent",
+      "name": "Issue Triage Agent",
+      "path": "ai-tools/agents/jules/issue-triage-agent/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "migration-planner",
+      "name": "Migration Planner",
+      "path": "ai-tools/agents/jules/migration-planner/README.md",
       "status": "draft",
       "review": "manual-review"
     }
