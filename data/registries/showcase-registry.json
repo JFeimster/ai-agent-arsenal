@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "ops-command-center",
+      "name": "Ops Command Center",
+      "path": "showcase/builds/ops-command-center/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}

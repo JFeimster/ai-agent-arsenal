@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "fundable-lead-finder",
+      "name": "Fundable Lead Finder",
+      "path": "ai-tools/custom-gpts/fundable-lead-finder/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}

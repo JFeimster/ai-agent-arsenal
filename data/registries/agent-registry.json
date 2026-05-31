@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "funding-pipeline-triage-agent",
+      "name": "Funding Pipeline Triage Agent",
+      "path": "ai-tools/agents/funding-pipeline-triage-agent/README.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}

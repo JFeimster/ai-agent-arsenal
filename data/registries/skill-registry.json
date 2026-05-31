@@ -1,0 +1,14 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-05-30",
+  "source": "batch-01-repo-control-files",
+  "entries": [
+    {
+      "id": "skill-index-reference",
+      "name": "Skill Index Reference",
+      "path": "ai-tools/skills/skill-index.json",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}
