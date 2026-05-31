@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Funding Pipeline Triage Agent",
+    "slug": "funding-pipeline-triage-agent",
+    "type": "agents",
+    "category": "agents",
+    "description": "Turns messy funding lead data into CRM-ready summaries, blockers, and next actions.",
+    "href": "../ai-tools/agents/funding-pipeline-triage-agent/README.md"
+  },
+  {
+    "title": "Fundable Lead Finder",
+    "slug": "fundable-lead-finder",
+    "type": "tools",
+    "category": "tools",
+    "description": "Scores blue-collar service leads and supports no-BS funding outreach workflows.",
+    "href": "../ai-tools/custom-gpts/fundable-lead-finder/README.md"
+  },
+  {
+    "title": "Agent Build Checklist",
+    "slug": "agent-build-checklist",
+    "type": "templates",
+    "category": "templates",
+    "description": "Reusable checklist for packaging, testing, and documenting agent assets.",
+    "href": "../ai-tools/templates/agent-build-checklist.md"
+  }
+]
