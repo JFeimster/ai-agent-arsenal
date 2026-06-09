@@ -1,0 +1,6 @@
+{
+  "title": "OAuth Example",
+  "description": "Placeholder action that expects OAuth.",
+  "endpoint": "https://api.example.com/oauth",
+  "auth": "oauth"
+}

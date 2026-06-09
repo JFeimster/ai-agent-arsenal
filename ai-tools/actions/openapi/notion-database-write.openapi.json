@@ -1,0 +1,74 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Notion Database Write",
+    "version": "0.1.0",
+    "description": "Draft GPT Action for writing a record into a Notion-style database."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com"
+    }
+  ],
+  "paths": {
+    "/notion/databases/{databaseId}/pages": {
+      "post": {
+        "operationId": "writeNotionPage",
+        "summary": "Write a page",
+        "parameters": [
+          {
+            "name": "databaseId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NotionPageWriteRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Written",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotionPageWriteResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "NotionPageWriteRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "status": { "type": "string" }
+        },
+        "required": ["title"]
+      },
+      "NotionPageWriteResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "pageId": { "type": "string" }
+        },
+        "required": ["pageId"]
+      }
+    }
+  }
+}

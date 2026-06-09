@@ -1,0 +1,71 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Custom GPT Action Template",
+    "version": "0.1.0",
+    "description": "Template OpenAPI spec for a GPT Action."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com"
+    }
+  ],
+  "paths": {
+    "/action": {
+      "post": {
+        "operationId": "runAction",
+        "summary": "Run the template action",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActionRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ActionResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ActionRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "input": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "input"
+        ]
+      },
+      "ActionResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "result": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    }
+  }
+}
