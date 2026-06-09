@@ -1,0 +1,66 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HubSpot Contact Create",
+    "version": "0.1.0",
+    "description": "Draft GPT Action for creating a HubSpot contact."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com"
+    }
+  ],
+  "paths": {
+    "/hubspot/contacts": {
+      "post": {
+        "operationId": "createHubSpotContact",
+        "summary": "Create a contact",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ContactCreateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactCreateResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ContactCreateRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "email": { "type": "string" },
+          "firstname": { "type": "string" },
+          "lastname": { "type": "string" }
+        },
+        "required": ["email"]
+      },
+      "ContactCreateResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "email": { "type": "string" }
+        },
+        "required": ["id"]
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-06-09",
+  "entries": [
+    {
+      "id": "custom-gpt-action-template",
+      "name": "Custom GPT Action Template",
+      "path": "ai-tools/actions/openapi/custom-gpt-action-template.openapi.json",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "funding-pathfinder",
+      "name": "Funding Pathfinder",
+      "path": "ai-tools/actions/openapi/funding-pathfinder.openapi.json",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "hubspot-contact-create",
+      "name": "HubSpot Contact Create",
+      "path": "ai-tools/actions/openapi/hubspot-contact-create.openapi.json",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "notion-database-write",
+      "name": "Notion Database Write",
+      "path": "ai-tools/actions/openapi/notion-database-write.openapi.json",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "n8n-webhook-action",
+      "name": "n8n Webhook Action",
+      "path": "ai-tools/actions/openapi/n8n-webhook-action.openapi.json",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}

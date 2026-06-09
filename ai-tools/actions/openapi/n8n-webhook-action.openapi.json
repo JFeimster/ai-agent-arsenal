@@ -1,0 +1,64 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "n8n Webhook Action",
+    "version": "0.1.0",
+    "description": "Draft GPT Action for posting to an n8n webhook."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com"
+    }
+  ],
+  "paths": {
+    "/n8n/webhook": {
+      "post": {
+        "operationId": "sendWebhook",
+        "summary": "Send a webhook event",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebhookRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Accepted",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WebhookResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WebhookRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "event": { "type": "string" },
+          "payload": { "type": "object" }
+        },
+        "required": ["event"]
+      },
+      "WebhookResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "accepted": { "type": "boolean" }
+        },
+        "required": ["accepted"]
+      }
+    }
+  }
+}
