@@ -7,5 +7,5 @@ Rules:
 - Do not move source-layer imports during platform-guidance batches.
 
 Current note:
-- Expected path `ai-tools/agents/source/ai-agent-library/` was not present at Batch 3 creation time.
-- Existing imported agent library content currently appears under `ai-tools/agents/notion/` and should be treated as source-derived until explicitly reorganized.
+- Imported source agent locations may vary by batch history.
+- Use `data/registries/agent-registry.json` and `data/source-indexes/` to confirm current source asset paths before moving or editing imported assets.
