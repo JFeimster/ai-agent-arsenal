@@ -1,0 +1,9 @@
+{
+  "event": "example.event",
+  "source": "ai-agent-arsenal",
+  "timestamp": "2026-06-14T00:00:00Z",
+  "payload": {
+    "id": "example-id",
+    "status": "draft"
+  }
+}

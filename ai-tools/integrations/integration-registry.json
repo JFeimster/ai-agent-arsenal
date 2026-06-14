@@ -1,0 +1,62 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-06-14",
+  "entries": [
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "path": "ai-tools/integrations/hubspot",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "path": "ai-tools/integrations/notion",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "path": "ai-tools/integrations/n8n",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "make",
+      "name": "Make",
+      "path": "ai-tools/integrations/make",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "path": "ai-tools/integrations/vercel",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "path": "ai-tools/integrations/github",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "path": "ai-tools/integrations/google-drive",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "path": "ai-tools/integrations/openai",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}
