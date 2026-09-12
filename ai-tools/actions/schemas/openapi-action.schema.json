@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenAPI Action",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "openapi": { "type": "string" },
+    "info": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "paths": {
+      "type": "object"
+    }
+  },
+  "required": ["openapi", "info", "paths"]
+}

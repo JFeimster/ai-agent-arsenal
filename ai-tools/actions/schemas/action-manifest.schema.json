@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Action Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "path": { "type": "string" },
+    "status": { "type": "string" },
+    "review": { "type": "string" }
+  },
+  "required": ["id", "name", "path"]
+}

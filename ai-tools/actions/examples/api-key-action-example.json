@@ -1,0 +1,6 @@
+{
+  "title": "API Key Example",
+  "description": "Placeholder action that expects an API key.",
+  "endpoint": "https://api.example.com/api-key",
+  "auth": "apiKey"
+}

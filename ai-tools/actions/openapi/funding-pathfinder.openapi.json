@@ -1,0 +1,83 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Funding Pathfinder",
+    "version": "0.1.0",
+    "description": "Draft GPT Action for funding path lookup and routing."
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com"
+    }
+  ],
+  "paths": {
+    "/funding-pathfinder": {
+      "post": {
+        "operationId": "pathfindFunding",
+        "summary": "Suggest a funding path",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FundingPathRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Path recommendation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FundingPathResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "FundingPathRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "businessType": {
+            "type": "string"
+          },
+          "revenue": {
+            "type": "number"
+          },
+          "fundingNeed": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "businessType"
+        ]
+      },
+      "FundingPathResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "route": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "route"
+        ]
+      }
+    }
+  }
+}

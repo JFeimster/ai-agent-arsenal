@@ -1,0 +1,6 @@
+{
+  "title": "No Auth Example",
+  "description": "Placeholder action that requires no auth.",
+  "endpoint": "https://api.example.com/no-auth",
+  "auth": "none"
+}
