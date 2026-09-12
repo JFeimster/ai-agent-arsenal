@@ -1,0 +1,97 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-06-14",
+  "entries": [
+    {
+      "id": "repo-review",
+      "name": "Repo Review Prompt",
+      "path": "ai-tools/prompts/repo-ops/repo-review-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "import-batch",
+      "name": "Import Batch Prompt",
+      "path": "ai-tools/prompts/repo-ops/import-batch-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "pr-review",
+      "name": "PR Review Prompt",
+      "path": "ai-tools/prompts/repo-ops/pr-review-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "cleanup",
+      "name": "Cleanup Prompt",
+      "path": "ai-tools/prompts/repo-ops/cleanup-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "custom-gpt-system-instruction",
+      "name": "Custom GPT System Instruction Template",
+      "path": "ai-tools/prompts/custom-gpts/system-instruction-template.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "custom-gpt-conversation-starter",
+      "name": "Custom GPT Conversation Starter Template",
+      "path": "ai-tools/prompts/custom-gpts/conversation-starter-template.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "custom-gpt-knowledge-map",
+      "name": "Custom GPT Knowledge File Map Prompt",
+      "path": "ai-tools/prompts/custom-gpts/knowledge-file-map-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "directory-card-copy",
+      "name": "Directory Card Copy Prompt",
+      "path": "ai-tools/prompts/directory/directory-card-copy-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "tool-profile-normalizer",
+      "name": "Tool Profile Normalizer Prompt",
+      "path": "ai-tools/prompts/directory/tool-profile-normalizer-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "category-tagging",
+      "name": "Category Tagging Prompt",
+      "path": "ai-tools/prompts/directory/category-tagging-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "landing-page-copy",
+      "name": "Landing Page Copy Prompt",
+      "path": "ai-tools/prompts/marketing/landing-page-copy-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "social-launch",
+      "name": "Social Launch Prompt",
+      "path": "ai-tools/prompts/marketing/social-launch-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    },
+    {
+      "id": "email-swipe",
+      "name": "Email Swipe Prompt",
+      "path": "ai-tools/prompts/marketing/email-swipe-prompt.md",
+      "status": "draft",
+      "review": "manual-review"
+    }
+  ]
+}
